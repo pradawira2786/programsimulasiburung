@@ -12,8 +12,8 @@ int toInt (string);
 double toDouble (string);
 
 int main() {
-    int s;
-    int v;
+    int S;
+    int V;
     double sinA;
     double waktu;
 
@@ -21,8 +21,8 @@ int main() {
     cin >> s;
     cout << "Masukkan kecepatan awal: ";
     cin >> v;
-    sinA = sin((double) (s * 22) / 7 / 180);
-    waktu = 2 * (v * sinA) / 10;
+    sinA = sin((double) (S * 22) / 7 / 180);
+    waktu = 2 * (V * sinA) / 10;
     cout << "Waktu yang ditempuh Boro untuk mencapai jarak terjauh adalah" << waktu << endl;
     return 0;
 }
